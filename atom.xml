@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.makcyun.top/"/>
-  <updated>2018-07-13T10:18:11.095Z</updated>
+  <updated>2018-07-13T10:49:05.152Z</updated>
   <id>https://www.makcyun.top/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试1</title>
+    <link href="https://www.makcyun.top/hexo02.html"/>
+    <id>https://www.makcyun.top/hexo02.html</id>
+    <published>2018-07-13T10:49:04.920Z</published>
+    <updated>2018-07-13T10:49:05.152Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>开启gh-pages功能  </li></ul><ul><li>开启gh-pages功能2<ul><li>开启gh-pages功能2<ul><li><ul><li>开启gh-pages功能2</li></ul></li></ul></li></ul></li></ul><ul><li>开启gh-pages功能3<ul><li>开启gh-pages功能3</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;开启gh-pages功能  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;开启gh-pages功能2&lt;ul&gt;
+&lt;li&gt;开启gh-pages功能2&lt;ul&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;开启gh-pages功能2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+      
+    
+    </summary>
+    
+      <category term="hexo博客" scheme="https://www.makcyun.top/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="hexo" scheme="https://www.makcyun.top/tags/hexo/"/>
+    
+      <category term="个人博客" scheme="https://www.makcyun.top/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="github" scheme="https://www.makcyun.top/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>4块钱,用Github+Hexo搭建你的个人博客：搭建篇</title>
