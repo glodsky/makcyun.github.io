@@ -111,7 +111,7 @@
 <meta property="og:image" content="https://www.makcyun.top/hexo01/建立仓库3.png">
 <meta property="og:image" content="https://www.makcyun.top/hexo01/建立仓库4.png">
 <meta property="og:image" content="https://www.makcyun.top/hexo01/cmd2.png">
-<meta property="og:updated_time" content="2018-07-13T07:51:00.943Z">
+<meta property="og:updated_time" content="2018-07-13T08:52:54.926Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="4块钱,用Github+Hexo搭建你的个人博客：搭建篇">
 <meta name="twitter:description" content="4块钱,你就能够在茫茫互联网中拥有一处专属于你的小天地，丈量你走过的每一个脚印。 之前，在网上看到过很多人拥有很酷的个人博客，很是羡慕，但感觉很难所以一直没敢去尝试。最近捣鼓了几天，发现搭建博客其实没有想象中的难。 之前，在网上看到过很多人拥有很酷的个人博客，很是羡慕，但感觉很难所以一直没敢去尝试.">
@@ -432,7 +432,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,957 字
+                  1,938 字
                 </span>
               
 
@@ -496,24 +496,20 @@
 <h3 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h3><p><strong>声明</strong><br>因为这几篇教程写得非常详细，我基本是都是参照着一步步做下来的。所以我不再照搬细节，仅对参考过程中发现存在问题或者没有仔细说明的步骤进行说明。对于我按照教程实际操作成功的步骤，我会用：“参考教程1（编号）xxx内容”这样的形式来说明。  </p>
 <p>操作平台:Win7 64位。</p>
 <h3 id="软件安装配置"><a href="#软件安装配置" class="headerlink" title="软件安装配置"></a>软件安装配置</h3><p>搭建博客需要先下载2个软件Git和Nodejs以及注册一个Github账号。<br>软件安装很简单，一直保持Next默认直到安装完成就行了。</p>
-<ul>
-<li><p>Git<br>官网：<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a><br>安装完，cmd中输入下面命令，有返回版本信息说明成功安装。<br>  git –version </p>
-</li>
-<li><p>Nodejs<br>官网：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a><br>安装完，cmd输入下述命令，有版本信息说明安装成功，见下图。<br>  node -v<br>  npm -v  </p>
-</li>
-</ul>
+<p><strong>Git</strong><br>官网：<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a><br>安装完，cmd中输入下面命令，有返回版本信息说明成功安装。<br>    git –version </p>
+<p><strong>Nodejs</strong><br>官网：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a><br>安装完，cmd输入下述命令，有版本信息说明安装成功，见下图。<br>    node -v<br>    npm -v  </p>
 <p><img src="hexo01/cmd.png" alt="cmd命令"></p>
+<p><strong>Github账号注册及配置</strong><br>官网：<br>如果你没有github帐号，就新建一个，然后去邮箱进行验证；如果你有帐号则直接登录。<br>配置步骤：</p>
 <ul>
-<li><p>Github账号注册及配置<br>官网：<br>如果你没有github帐号，就新建一个，然后去邮箱进行验证；如果你有帐号则直接登录。<br>配置步骤：</p>
-<ul>
-<li>建立new repository<br>只填写username.github.io即可，然后点击create repositrory。<br>注意：username.github.io 的username要和用户名保持一致，不然后面会失败。以我的为例：  </li>
+<li>建立new repository  </li>
 </ul>
-</li>
-</ul>
+<p>只填写username.github.io即可，然后点击create repositrory。<br>注意：username.github.io 的username要和用户名保持一致，不然后面会失败。以我的为例：  </p>
 <p><img src="hexo01/建立仓库0.png" alt="1"></p>
 <p><img src="hexo01/建立仓库1.png" alt="2"></p>
-<pre><code>- 开启gh-pages功能
-</code></pre><p>点击github主页点击头像下面的profile,找到新建立的username.github.io文件打开，点击settings，往下拉动鼠标到GitHub Pages，选择choose a theme，随便选择一个，（之后我们要更改这些丑陋的模板），然后select theme保存。</p>
+<ul>
+<li>开启gh-pages功能  </li>
+</ul>
+<p>点击github主页点击头像下面的profile,找到新建立的username.github.io文件打开，点击settings，往下拉动鼠标到GitHub Pages，选择choose a theme，随便选择一个，（之后我们要更改这些丑陋的模板），然后select theme保存。</p>
 <p><img src="hexo01/建立仓库2.png" alt="3"></p>
 <p><img src="hexo01/建立仓库3.png" alt="4"></p>
 <p><img src="hexo01/建立仓库4.png" alt="5"> </p>
@@ -531,9 +527,13 @@
 <ul>
 <li>查看博客效果  </li>
 </ul>
-<p>至此，博客初步搭建好。输入下面一行命令：<br>    hexo s -g<br>然后打开浏览器在网址栏输入：local:4000就可以看到博客的样子，如果无法打开，则输入并运行：<br>    npm install hexo-deployer-git –save<br>    hexo clean<br>    hexo s -g </p>
-<p>成功打开后，发现但看起来很难看，想必你也不想把博客发在这样的网页上吧，后续会通过重新选则模板来对博客进行美化。<br>另外，现在虽然你可以开始写博客，但是只能你自己在本地查看，并不能发布到网上去。如何才能发布到网上？接下来需要利用前面提到的的Github Pages功能进行设置。</p>
-<h3 id="把你的博客部署到Github-Pages上去"><a href="#把你的博客部署到Github-Pages上去" class="headerlink" title="把你的博客部署到Github Pages上去"></a>把你的博客部署到Github Pages上去</h3><p>这是搭建博客相对比较复杂也是容易出错的一部分。<br>详细步骤，参考并进行操作<a href="">教程1-将博客部署到Github Pages</a>第三点开始直到美化博客前结束。  </p>
+<p>至此，博客初步搭建好。输入下面一行命令：<br>    hexo s -g </p>
+<p>然后打开浏览器在网址栏输入：local:4000就可以看到博客的样子，如果无法打开，则输入并运行：    </p>
+<pre><code>npm install hexo-deployer-git --save
+hexo clean
+hexo s -g 
+</code></pre><p>成功打开后，发现但看起来很难看，想必你也不想把博客发在这样的网页上吧，后续会通过重新选则模板来对博客进行美化。<br>另外，现在虽然你可以开始写博客，但是只能你自己在本地查看，并不能发布到网上去。如何才能发布到网上？接下来需要利用前面提到的的Github Pages功能进行设置。</p>
+<h3 id="把你的博客部署到Github-Pages上去"><a href="#把你的博客部署到Github-Pages上去" class="headerlink" title="把你的博客部署到Github Pages上去"></a>把你的博客部署到Github Pages上去</h3><p>这是搭建博客相对比较复杂也是容易出错的一部分。<br>详细步骤，参考<a href="">教程1-将博客部署到Github Pages</a>。  </p>
 <p>顺利的话，现在你在网址中输入：<br>username.github.io（我的是makcyun.github.io）就可以看到和刚才输入local:4000一样的页面了。这就意味着你的博客别人输入这个网址就可以打开看到了。</p>
 <h3 id="赶紧新建个博客试试"><a href="#赶紧新建个博客试试" class="headerlink" title="赶紧新建个博客试试"></a>赶紧新建个博客试试</h3><h3 id="教程参考"><a href="#教程参考" class="headerlink" title="教程参考"></a>教程参考</h3><p>搭建博客的教程网上一搜一大堆，到底该参考哪些教程？<br>这里我筛选出了几篇很棒的教程,参考这几篇能节省很多你百度的时间：</p>
 <p><strong>1 博客初步搭建教程</strong>  </p>
@@ -840,7 +840,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.0k字</span>
+  <span class="post-count">博客全站共1.9k字</span>
 </div>
 
 
