@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c3d940;
+  background: #ff465b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3310,6 +3310,18 @@ post-widgets {
   margin-top: 35px;
   width: 100%;
   border-top: 1px solid #eee;
+}
+.post-body a {
+  color: #5073b8;
+  border-bottom: none;
+  text-decoration: none;
+}
+a {
+  color: #5073b8;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid #999;
+  word-wrap: break-word;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
