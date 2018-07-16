@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a2ff30;
+  background: #b5f5ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3375,7 +3375,7 @@ h1 {
   font-size: 1.6em;
 }
 h2 {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 h3 {
   font-size: 1.2em;
@@ -3394,8 +3394,10 @@ ol {
   padding-left: 16px;
 }
 ul {
-/*无序列表*/
   list-style-type: disc;
+}
+.posts-expand .post-body ul li {
+  list-style: disc;
 }
 ol {
 /*有序列表*/
