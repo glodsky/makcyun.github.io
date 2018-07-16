@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff11c1;
+  background: #9ff2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3342,8 +3342,140 @@ a {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
 }
-.posts-expand .post-body ul li {
-  list-style: disc;
+.output_wrapper {
+  font-size: 14px;
+  color: #4d4d4d;
+  line-height: 2;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+.output_wrapper * {
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+/*段落*/
+  margin: 1.5em 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0px;
+  font-weight: bold;
+  color: #2980b9; /*改变了其默认的标题颜色*/
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 1em;
+}
+ul,
+ol {
+  padding-left: 16px;
+}
+ul {
+/*无序列表*/
+  list-style-type: disc;
+}
+ol {
+/*有序列表*/
+  list-style-type: decimal;
+}
+li {
+/*在公众号下，改变不了li符号的属性（如颜色），并会影响其子元素的属性;而在其它博客平台中，则能正常使用*/
+  margin-bottom: 0.5em;
+/*  color:#159957; */
+}
+.code_size_default {
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+}
+.code_size_tight {
+  line-height: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  word-spacing: -3px;
+  letter-spacing: 0px;
+}
+pre code {
+  font-family: Consolas, Inconsolata, Courier, monospace;
+  border-radius: 0px;
+  font-size: 0.9em;
+}
+blockquote.question {
+/*引用块*/
+  color: #555;
+  border-left: 4px solid #1098ad;
+  background-color: #e3f2fd;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+del {
+  font-style: italic;
+}
+strong em {
+  font-weight: bold;
+}
+hr {
+/*分隔线*/
+  height: 1px;
+  margin: 1.5rem 0px;
+  border: none;
+  border-top: 1px dashed #a5a5a5;
+}
+code {
+  word-wrap: break-word;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: 0 2px;
+  color: #333;
+  background: #ededee;
+}
+img {
+  display: block;
+  margin: 0 auto;
+/*图片水平居中*/
+/* margin:0 0;  */
+/*图片水平居左，如需要请打开*/
+  max-width: 100%;
+}
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+/* text-align:left;  */
+/*当图片水平居左时，请打开*/
+  color: #999;
+  font-size: 0.7em;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
