@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bacf08;
+  background: #fff588;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3284,7 +3284,7 @@ img:hover {
 }
 .out-img-topic {
   display: block;
-  max-height: 300px;
+  max-height: 400px;
   margin-bottom: 24px;
   overflow: hidden;
 }
