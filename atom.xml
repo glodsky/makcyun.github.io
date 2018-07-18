@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.makcyun.top/"/>
-  <updated>2018-07-18T04:01:01.629Z</updated>
+  <updated>2018-07-18T04:10:16.894Z</updated>
   <id>https://www.makcyun.top/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>4块钱,用Github+Hexo搭建你的个人博客：美化篇</title>
-    <link href="https://www.makcyun.top/hexo01.html"/>
-    <id>https://www.makcyun.top/hexo01.html</id>
-    <published>2018-07-17T10:17:10.000Z</published>
-    <updated>2018-07-18T04:01:01.629Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>摘要：</strong>上一篇文章，介绍了如何搭建个人博客。这一篇文章则进一步介绍博客的美化。</p><p>对博客界面进行美化的工作量相对较大，需要修改源代码，”折腾”的过程需保持一定耐心。好看的博客，别人更愿意在你的博客多停留一会儿。</p><a id="more"></a><p>首先，初始的博客界面非常难看，所以需重新挑选一个好看的模板，然后在此基础上进行美化。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;上一篇文章，介绍了如何搭建个人博客。这一篇文章则进一步介绍博客的美化。&lt;/p&gt;
-&lt;p&gt;对博客界面进行美化的工作量相对较大，需要修改源代码，”折腾”的过程需保持一定耐心。好看的博客，别人更愿意在你的博客多停留一会儿。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="hexo博客" scheme="https://www.makcyun.top/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="hexo" scheme="https://www.makcyun.top/tags/hexo/"/>
-    
-      <category term="个人博客" scheme="https://www.makcyun.top/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="github" scheme="https://www.makcyun.top/tags/github/"/>
-    
-  </entry>
   
   <entry>
     <title>4块钱,用Github+Hexo搭建你的个人博客：搭建篇</title>
