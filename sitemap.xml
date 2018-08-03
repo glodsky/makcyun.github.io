@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.makcyun.top/top/index.html</loc>
+    
+    <lastmod>2018-08-03T04:45:17.617Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.makcyun.top/hexo02.html</loc>
     
     <lastmod>2018-07-18T08:03:57.117Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://www.makcyun.top/about/index.html</loc>
     
     <lastmod>2018-07-17T10:13:33.131Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.makcyun.top/top/index.html</loc>
-    
-    <lastmod>2018-07-11T00:44:23.331Z</lastmod>
     
   </url>
   
