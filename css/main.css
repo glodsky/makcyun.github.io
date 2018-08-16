@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50917d;
+  background: #fcd0ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3380,11 +3380,16 @@ h1 {
 }
 h2 {
   font-size: 1.3em;
-/*color: #5EA7AE;  !important;       /*标题颜色为蓝色#2980B9，标题颜色为绿色#5EA7BF*/
+  color: #565656;
+!important /*标题颜色为蓝色#2980B9，标题颜色为绿色#5EA7BF*/
 }
+!important
 h3 {
-  font-size: 1.2em;
+  font-size: 1.15em;
+  color: #565656;
+!important
 }
+!important
 h4 {
   font-size: 1.1em;
 }
