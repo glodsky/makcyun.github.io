@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://www.makcyun.top/web_scraping_withpython01.html</loc>
+    <lastmod>2018-08-16T10:00:15.479Z</lastmod>
+    <data>
+        <display>
+        <title>Requests+4种方法爬取猫眼top100电影</title>
+        <pubTime>2018-08-15T02:49:18.400Z</pubTime>
+        
+        <tag>python爬虫</tag>
+         
+        <tag>requests</tag>
+         
+        <tag>正则表达式</tag>
+         
+        <tag>beautifulsoup</tag>
+         
+        <tag>css</tag>
+         
+        <tag>xpath</tag>
+         
+        <tag>lxml</tag>
+         
+         
+           
+             
+              <breadCrumb title="python爬虫" url="https://www.makcyun.top/categories/python%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.makcyun.top/hexo01.html</loc>
     <lastmod>2018-08-16T09:27:15.222Z</lastmod>
     <data>

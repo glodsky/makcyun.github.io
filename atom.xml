@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.makcyun.top/"/>
-  <updated>2018-08-16T09:26:53.010Z</updated>
+  <updated>2018-08-16T10:00:15.479Z</updated>
   <id>https://www.makcyun.top/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Requests+4种方法爬取猫眼top100电影</title>
+    <link href="https://www.makcyun.top/web_scraping_withpython01.html"/>
+    <id>https://www.makcyun.top/web_scraping_withpython01.html</id>
+    <published>2018-08-15T02:49:18.400Z</published>
+    <updated>2018-08-16T10:00:15.479Z</updated>
+    
+    <content type="html"><![CDATA[<p><b><em>python爬虫第一篇</em></b><br>利用Request请求库和4种内容提取方法：正则表达式、lxml+xpath、Beatutifulsoup+css选择器、Beatutifulsoup+find_all爬取网页内容。</p><a id="more"></a>  <p>[TOC]</p><p>参考<br><a href="https://www.cnblogs.com/AlvinZH/p/8576841.html" target="_blank" rel="noopener">https://www.cnblogs.com/AlvinZH/p/8576841.html</a></p><p><strong>摘要：</strong> 作为普通小白比如我，<strong>爬虫可以说是入门python最快和最容易获得成就感的途径</strong>。一般爬虫的套路相对固定，常见的方法只有几种，所以比较好上手。最近，跟着崔庆才大佬的书学习爬虫，这里选取网页结构较为简单的<a href="http://maoyan.com/board/4" target="_blank" rel="noopener">猫眼top100电影</a>为案例进行爬取。重点是用上述所说的4种不同的方法提取出关键内容。一个问题采用不同的解决方法有助于拓展思维，达到灵活运用的目的。</p><p>放猫眼100截图</p><blockquote><p><strong>本文知识点：</strong><br>Requsts 请求库的使用<br>beautiful+lxml两大解析库运用<br>正则表达式 、xpath、css选择器的使用</p></blockquote><h2 id="为什么爬取该网页？"><a href="#为什么爬取该网页？" class="headerlink" title="为什么爬取该网页？"></a>为什么爬取该网页？</h2><ul><li>比较懒，不想一页页地去翻100部电影的介绍，<strong>想在一个页面内进行总体浏览</strong>（比如在excel表格中）；</li><li>想<strong>深入了解一些比较有意思的信息</strong>，比如：哪部电影的评分最高？哪个国家/地区上榜的电影数量最多？哪一年上榜数量最多？这些信息在网页上是不那么容易能直接获得的，所以需要爬虫。</li></ul><h2 id="爬虫目标"><a href="#爬虫目标" class="headerlink" title="爬虫目标"></a>爬虫目标</h2><ul><li>从10个网页中提取出top100电影的电影名称、封面图片、排名、评分、演员、上映国家/地区、评分等信息，并保存为csv文本文件。</li><li>根据爬取结果，进行简单的可视化分析。</li></ul><h2 id="爬取步骤"><a href="#爬取步骤" class="headerlink" title="爬取步骤"></a>爬取步骤</h2><h3 id="网址URL分析"><a href="#网址URL分析" class="headerlink" title="网址URL分析"></a>网址URL分析</h3><p><a href="http://maoyan.com/board/4" target="_blank" rel="noopener">http://maoyan.com/board/4</a></p><h3 id="Requests获取首页数据"><a href="#Requests获取首页数据" class="headerlink" title="Requests获取首页数据"></a>Requests获取首页数据</h3><h3 id="页面解析"><a href="#页面解析" class="headerlink" title="页面解析"></a>页面解析</h3><h3 id="4种内容提取方法"><a href="#4种内容提取方法" class="headerlink" title="4种内容提取方法"></a>4种内容提取方法</h3><h4 id="正则表达式提取"><a href="#正则表达式提取" class="headerlink" title="正则表达式提取"></a>正则表达式提取</h4><h4 id="lxml结合xpath提取"><a href="#lxml结合xpath提取" class="headerlink" title="lxml结合xpath提取"></a>lxml结合xpath提取</h4><h4 id="beautifulsoup-css选择器"><a href="#beautifulsoup-css选择器" class="headerlink" title="beautifulsoup + css选择器"></a>beautifulsoup + css选择器</h4><h4 id="beautifulsoup-find-all函数提取"><a href="#beautifulsoup-find-all函数提取" class="headerlink" title="beautifulsoup + find_all函数提取"></a>beautifulsoup + find_all函数提取</h4><h3 id="内容提取函数"><a href="#内容提取函数" class="headerlink" title="内容提取函数"></a>内容提取函数</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;b&gt;&lt;em&gt;python爬虫第一篇&lt;/em&gt;&lt;/b&gt;&lt;br&gt;利用Request请求库和4种内容提取方法：正则表达式、lxml+xpath、Beatutifulsoup+css选择器、Beatutifulsoup+find_all爬取网页内容。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python爬虫" scheme="https://www.makcyun.top/categories/python%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="python爬虫" scheme="https://www.makcyun.top/tags/python%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="requests" scheme="https://www.makcyun.top/tags/requests/"/>
+    
+      <category term="正则表达式" scheme="https://www.makcyun.top/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+      <category term="beautifulsoup" scheme="https://www.makcyun.top/tags/beautifulsoup/"/>
+    
+      <category term="css" scheme="https://www.makcyun.top/tags/css/"/>
+    
+      <category term="xpath" scheme="https://www.makcyun.top/tags/xpath/"/>
+    
+      <category term="lxml" scheme="https://www.makcyun.top/tags/lxml/"/>
+    
+  </entry>
   
   <entry>
     <title>4块钱,用Github+Hexo搭建你的个人博客：美化篇</title>
