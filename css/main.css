@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fbd5cf;
+  background: #05e2fe;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3284,7 +3284,7 @@ img:hover {
 }
 .out-img-topic {
   display: block;
-  max-height: 400px;
+  max-height: 350px;
   margin-bottom: 24px;
   overflow: hidden;
 }
@@ -3295,6 +3295,10 @@ img.img-topic {
   padding: 0;
   float: right;
   clear: right;
+}
+.posts-expand .post-body img {
+  border: none;
+  padding: 0px;
 }
 post-widgets {
   border-top: 1px solid #eee;
@@ -3319,7 +3323,7 @@ a {
   word-wrap: break-word;
 }
 .post-body a {
-  color: #5073b8;
+  color: #2980b9;
   border-bottom: #555;
   text-decoration: none;
 }
@@ -3376,6 +3380,7 @@ h1 {
 }
 h2 {
   font-size: 1.3em;
+/*color: #5EA7AE;  !important;       /*标题颜色为蓝色#2980B9，标题颜色为绿色#5EA7BF*/
 }
 h3 {
   font-size: 1.2em;
@@ -3452,6 +3457,7 @@ blockquote.question {
 }
 strong {
   font-weight: bold;
+  color: #15afb6; /*灰色强调色#565656，墨绿色强调#15AFB6*/
 }
 em {
   font-style: italic;
