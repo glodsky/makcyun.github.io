@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Requests+4种方法爬取猫眼top100电影]]></title>
-    <url>%2Fweb_scraping_withpython01.html</url>
-    <content type="text"><![CDATA[python爬虫第一篇利用Request请求库和4种内容提取方法：正则表达式、lxml+xpath、Beatutifulsoup+css选择器、Beatutifulsoup+find_all爬取网页内容。 [TOC] 参考https://www.cnblogs.com/AlvinZH/p/8576841.html 摘要： 作为普通小白比如我，爬虫可以说是入门python最快和最容易获得成就感的途径。一般爬虫的套路相对固定，常见的方法只有几种，所以比较好上手。最近，跟着崔庆才大佬的书学习爬虫，这里选取网页结构较为简单的猫眼top100电影为案例进行爬取。重点是用上述所说的4种不同的方法提取出关键内容。一个问题采用不同的解决方法有助于拓展思维，达到灵活运用的目的。 放猫眼100截图 本文知识点：Requsts 请求库的使用beautiful+lxml两大解析库运用正则表达式 、xpath、css选择器的使用 为什么爬取该网页？ 比较懒，不想一页页地去翻100部电影的介绍，想在一个页面内进行总体浏览（比如在excel表格中）； 想深入了解一些比较有意思的信息，比如：哪部电影的评分最高？哪个国家/地区上榜的电影数量最多？哪一年上榜数量最多？这些信息在网页上是不那么容易能直接获得的，所以需要爬虫。 爬虫目标 从10个网页中提取出top100电影的电影名称、封面图片、排名、评分、演员、上映国家/地区、评分等信息，并保存为csv文本文件。 根据爬取结果，进行简单的可视化分析。 爬取步骤网址URL分析http://maoyan.com/board/4 Requests获取首页数据页面解析4种内容提取方法正则表达式提取lxml结合xpath提取beautifulsoup + css选择器beautifulsoup + find_all函数提取内容提取函数]]></content>
-      <categories>
-        <category>python爬虫</category>
-      </categories>
-      <tags>
-        <tag>python爬虫</tag>
-        <tag>requests</tag>
-        <tag>正则表达式</tag>
-        <tag>beautifulsoup</tag>
-        <tag>css</tag>
-        <tag>xpath</tag>
-        <tag>lxml</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[4块钱,用Github+Hexo搭建你的个人博客：美化篇]]></title>
     <url>%2Fhexo02.html</url>
     <content type="text"><![CDATA[上一篇文章，介绍了如何搭建个人博客。这一篇文章则以我的博客为例详细介绍博客的美化步骤。 博客界面的美化需要修改源代码，对于没有前端基础的人来说，会比较费时间精力。即使一个小小的细节调整，可能就需要好一会儿，所以，需保持耐心。这里，以我的博客为例，介绍一些比较实用的元素美化操作。 1 选择新的模板初始的博客界面使用的是landscape主题模板，非常难看。你需重新挑选一个好看的主题模板，然后在此基础上进行美化。 在哪里找主题?到这个hexo主题排名网站 可以看到，排名第一的是一款叫next的主题，那么就可以尝试用它作为博客主题。事实上，这款主题功能相当齐全，我使用的即是这款。 进入到这个主题，阅读README.md说明，可以详细了解这款主题如何使用，还可以查看一些使用了这款主题的博客。 如何应用到自己的博客？ 打开博客根目录下的themes文件夹，Git软件运行下述命令： git clone https://github.com/iissnan/hexo-theme-next themes/next 就可以把这款主题的安装文件下载到电脑中。然后还打开D:\blog\_config.yml文件，找到 theme 字段，字段，并将其值更改为 hexo-theme-next（注意冒号后要留一个空格）。这样，博客主题就切换为next主题了，下面进行一下验证。 验证博客主题 在博客根目录下，运行下述命令： hexo clean hexo s -g 使用浏览器访问 http://localhost:4000,可以看到，你的博客已经完全变样，至少非常清爽了。 这是 NexT 默认的 scheme —— Muse。NexT 一共有四个 scheme,分别是： Muse: 默认 scheme，这是 NexT 最初的版本，黑白主调，大量留白 Mist: Muse 的紧凑版本，整洁有序的单栏外观 Pisces: 双栏 Scheme，小家碧玉似的清新 Gemini: 左侧网站信息及目录，块+片段结构布局 我选用的是Pisces，下面以我的博客作为参照，介绍如何进行美化。 声明两个重要文件Hexo 中有两份主要的配置文件，其名称都是 _config.yml， 后续美化主要需要在这两个文件中进行内容修改。 站点配置文件，位于站点文件夹根目录内，主要包含 Hexo 本身的配置： /blog/_config.yml 主题配置文件，位于主题文件夹根目录内，主要用于配置主题相关的选项: ~/blog/themes/next/_config.yml 为了描述方便，在以下说明中，将前者称为 站点配置文件， 后者称为 主题配置文件。 2 布局修改设置将博客]]></content>
