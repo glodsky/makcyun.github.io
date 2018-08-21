@@ -2115,7 +2115,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #deffba;
+  background: #edffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3498,7 +3498,7 @@ figcaption {
   font-size: 0.7em;
 }
 table {
-  margin: 20px 0;
+  margin: 10px 0; /*外边距*/
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
@@ -3516,7 +3516,8 @@ table>tbody>tr:hover {
 caption,
 th,
 td {
-  padding: 8px;
+  height: 15px; /*统一每一行的默认高度*/
+  padding: 2px; /*内边距*/
   text-align: left;
   vertical-align: middle;
   font-weight: normal;
@@ -3527,11 +3528,17 @@ td {
   border-right: 1px solid #eee;
 }
 th {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-weight: 700;
 }
 td {
   border-bottom-width: 1px;
+}
+table th {
+  white-space: nowrap; /*表头内容强制在一行显示*/
+}
+table td:nth-child(1) {
+  white-space: nowrap; /*首列不换行*/
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
