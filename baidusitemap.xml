@@ -4,30 +4,6 @@
 
     
   <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython2.html</loc>
-    <lastmod>2018-08-28T09:05:05.864Z</lastmod>
-    <data>
-        <display>
-        <title>python爬虫：表格型数据抓取</title>
-        <pubTime>2018-08-27T00:26:57.000Z</pubTime>
-        
-        <tag>python爬虫</tag>
-         
-        <tag>pandas</tag>
-         
-        <tag>数据抓取</tag>
-         
-         
-           
-             
-              <breadCrumb title="python爬虫" url="https://www.makcyun.top/categories/python%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.makcyun.top/hexo02.html</loc>
     <lastmod>2018-08-22T06:18:21.193Z</lastmod>
     <data>
@@ -45,38 +21,6 @@
            
              
               <breadCrumb title="hexo博客" url="https://www.makcyun.top/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython1.html</loc>
-    <lastmod>2018-08-21T01:38:05.955Z</lastmod>
-    <data>
-        <display>
-        <title>Requests+多种方法爬取猫眼top100电影</title>
-        <pubTime>2018-08-20T11:18:14.973Z</pubTime>
-        
-        <tag>python爬虫</tag>
-         
-        <tag>requests</tag>
-         
-        <tag>正则表达式</tag>
-         
-        <tag>beautifulsoup</tag>
-         
-        <tag>css</tag>
-         
-        <tag>xpath</tag>
-         
-        <tag>lxml</tag>
-         
-         
-           
-             
-              <breadCrumb title="python爬虫" url="https://www.makcyun.top/categories/python%E7%88%AC%E8%99%AB/"/>
           
         </display>
     </data>
