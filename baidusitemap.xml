@@ -4,42 +4,18 @@
 
     
   <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython3.html</loc>
-    <lastmod>2018-09-02T00:02:30.464Z</lastmod>
+    <loc>https://www.makcyun.top/web_scraping_withpython2.html</loc>
+    <lastmod>2018-09-02T00:14:20.328Z</lastmod>
     <data>
         <display>
-        <title>python爬虫(3)：单页图片下载-网易有数信息图</title>
-        <pubTime>2018-09-01T06:49:30.854Z</pubTime>
+        <title>Python爬虫(2)：表格型数据抓取</title>
+        <pubTime>2018-08-27T00:26:57.000Z</pubTime>
         
         <tag>Python爬虫</tag>
          
-        <tag>Ajax</tag>
+        <tag>pandas</tag>
          
-        <tag>图片下载</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython3.html</loc>
-    <lastmod>2018-09-02T00:00:52.190Z</lastmod>
-    <data>
-        <display>
-        <title>Python爬虫(3)：图片批量下载-以澎湃网信息图为例</title>
-        <pubTime>2018-09-02T00:00:57.468Z</pubTime>
-        
-        <tag>Python爬虫</tag>
-         
-        <tag>Ajax</tag>
-         
-        <tag>图片下载</tag>
+        <tag>数据抓取</tag>
          
          
            
@@ -72,30 +48,6 @@
         <tag>xpath</tag>
          
         <tag>lxml</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython2.html</loc>
-    <lastmod>2018-09-01T07:32:22.854Z</lastmod>
-    <data>
-        <display>
-        <title>Python爬虫：表格型数据抓取</title>
-        <pubTime>2018-08-27T00:26:57.000Z</pubTime>
-        
-        <tag>Python爬虫</tag>
-         
-        <tag>pandas</tag>
-         
-        <tag>数据抓取</tag>
          
          
            
