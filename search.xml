@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python爬虫(4)：图片批量下载-以澎湃网信息图为例]]></title>
+    <url>%2Fweb_scraping_withpython4.html</url>
+    <content type="text"><![CDATA[分析Ajax爬取网易”有数”和澎湃网”美数课”信息图图片。 摘要： 我们经常遇到的网页类型除了通过点击进行翻页的以外，还一种比较常见的就是下拉网页时会不断自动刷新然后弹出新的网页内容。这种类型的网页通常采用的是Ajax形式。抓取这种形式的网页内容需采取和静态网页略 本文知识点： Table型表格抓取 DataFrame.read_html函数使用 爬虫数据存储到mysql数据库 Navicat数据库的使用 本文完。 参考资源： https://germey.gitbooks.io/python3webspider/content/6.2-Ajax%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95.html]]></content>
+      <categories>
+        <category>Python爬虫</category>
+      </categories>
+      <tags>
+        <tag>Python爬虫</tag>
+        <tag>Ajax</tag>
+        <tag>图片下载</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[python爬虫(3)：单页图片下载-网易有数信息图]]></title>
     <url>%2Fweb_scraping_withpython3.html</url>
     <content type="text"><![CDATA[分析Ajax爬取网易”有数”和澎湃网”美数课”信息图图片。 摘要： 我们经常遇到的网页类型除了通过点击进行翻页的以外，还一种比较常见的就是下拉网页时会不断自动刷新然后弹出新的网页内容。这种类型的网页通常采用的是Ajax形式。抓取这种形式的网页内容需采取和静态网页略 本文知识点： Table型表格抓取 DataFrame.read_html函数使用 爬虫数据存储到mysql数据库 Navicat数据库的使用 本文完。 参考资源： https://germey.gitbooks.io/python3webspider/content/6.2-Ajax%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95.html]]></content>
