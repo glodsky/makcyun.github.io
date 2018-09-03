@@ -5,11 +5,35 @@
     
   <url>
     <loc>https://www.makcyun.top/web_scraping_withpython3.html</loc>
-    <lastmod>2018-09-02T03:50:46.043Z</lastmod>
+    <lastmod>2018-09-03T05:00:25.614Z</lastmod>
     <data>
         <display>
         <title>python爬虫(3)：单页图片下载-网易"数读"信息图</title>
         <pubTime>2018-09-01T06:49:30.854Z</pubTime>
+        
+        <tag>Python爬虫</tag>
+         
+        <tag>Ajax</tag>
+         
+        <tag>图片下载</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.makcyun.top/web_scraping_withpython4.html</loc>
+    <lastmod>2018-09-02T07:24:56.558Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫(4)：图片批量下载-以澎湃网信息图为例</title>
+        <pubTime>2018-09-02T00:00:57.468Z</pubTime>
         
         <tag>Python爬虫</tag>
          
