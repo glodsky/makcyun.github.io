@@ -108,7 +108,7 @@
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-9-6/44505347.jpg">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-9-6/64400003.jpg">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-9-6/63524613.jpg">
-<meta property="og:updated_time" content="2018-09-06T05:16:15.180Z">
+<meta property="og:updated_time" content="2018-09-06T06:37:05.260Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Pyhton可视化(1): 中国大学学术排行榜">
 <meta name="twitter:description" content="Python爬虫近十年中国大学Top20强并结合D3.js做动态数据可视化表。">
@@ -429,7 +429,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  3,663 字
+                  3,687 字
                 </span>
               
 
@@ -526,9 +526,7 @@
 <h4 id="2-4-1-克隆仓库文件"><a href="#2-4-1-克隆仓库文件" class="headerlink" title="2.4.1. 克隆仓库文件"></a>2.4.1. 克隆仓库文件</h4><p>如果你平常使用github或者Git软件的话，那么就找个合适文件存放目录，然后直接在 GitBash里分别输入下面3条命令就搭建好环境了：</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 克隆项目仓库</span><br><span class="line">git clone https:<span class="comment">//github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js</span></span><br><span class="line"># 切换到项目根目录</span><br><span class="line">cd Historical-ranking-data-visualization-based-on-d3.js</span><br><span class="line"># 安装依赖</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 <p>如果你此前没有用过上面的软件，你可以直接点击<code>Download Zip</code>下载下来然后解压即可，不过还是强烈建议使用第一种方法，因为后面如果要自定义可视化效果的话，需要修改代码然后执行<code>npm run build</code>命令才能够看到效果。</p>
-<h4 id="2-4-2-效果呈现"><a href="#2-4-2-效果呈现" class="headerlink" title="2.4.2. 效果呈现"></a>2.4.2. 效果呈现</h4><p>好，所有基本准备都已完成，下面就可以试试看效果了。<br>任意浏览器打开<code>bargraph.html</code>网页，点击选择文件，然后选择：前面输出的<code>university_ranking.csv</code>文件，看下效果吧：</p>
-<iframe height="498" width="510" src="http://player.youku.com/embed/XMzgxMjkzMzI4NA==" frameborder="0" 'allowfullscreen'=""></iframe>
-
+<h4 id="2-4-2-效果呈现"><a href="#2-4-2-效果呈现" class="headerlink" title="2.4.2. 效果呈现"></a>2.4.2. 效果呈现</h4><p>好，所有基本准备都已完成，下面就可以试试看效果了。<br>任意浏览器打开<code>bargraph.html</code>网页，点击选择文件，然后选择：前面输出的<code>university_ranking.csv</code>文件，看下效果吧：<br><a href="https://v.youku.com/v_show/id_XMzgxMjkzMzI4NA==.html?spm=a2hzp.8244740.0.0" target="_blank" rel="noopener">https://v.youku.com/v_show/id_XMzgxMjkzMzI4NA==.html?spm=a2hzp.8244740.0.0</a></p>
 <p>可以看到，有了大致的可视化效果，但还存在很多瑕疵，比如：表顺序颠倒了、字体不合适、配色太花哨等。可不可以修改呢？  </p>
 <p>当然是可以的，只需要分别修改文件夹中这几个文件的参数就可以了：  </p>
 <ul>
@@ -545,8 +543,7 @@
 </li>
 <li>Git Bash不断重复运行<code>npm run build</code>，之后刷新网页就可以看到优化后的效果。</li>
 </ul>
-<p>最后，再添加一个合适的BGM就可以了。以下是我优化之后的效果：</p>
-<p><iframe height="498" width="510" src="http://player.youku.com/embed/XMzgxMjgyNTE2OA==" frameborder="0" 'allowfullscreen'=""></iframe><br><em>BGM：ツナ覚醒</em></p>
+<p>最后，再添加一个合适的BGM就可以了。以下是我优化之后的效果：<br><a href="https://v.youku.com/v_show/id_XMzgxMjgyNTE2OA==.html?spm=a2hzp.8244740.0.0" target="_blank" rel="noopener">https://v.youku.com/v_show/id_XMzgxMjgyNTE2OA==.html?spm=a2hzp.8244740.0.0</a><br><em>BGM：ツナ覚醒</em></p>
 <p>如果你不太会调整，没有关系，我会分享优化后的配置文件。</p>
 <p>以上，就是实现动态可视化表的步骤。 同样地，只要更改数据源可以很方便地做出世界、美国等大学的动态效果，可以看看：<br>中国（含港澳台）大学排名：<br><a href="https://v.youku.com/v_show/id_XMzgxMjgyNjUwOA==.html?spm=a2h3j.8428770.3416059.1" target="_blank" rel="noopener">https://v.youku.com/v_show/id_XMzgxMjgyNjUwOA==.html?spm=a2h3j.8428770.3416059.1</a><br>美国大学排名：<br><a href="https://v.youku.com/v_show/id_XMzgxMjgyNDAwOA==.html?spm=a2h3j.8428770.3416059.1" target="_blank" rel="noopener">https://v.youku.com/v_show/id_XMzgxMjgyNDAwOA==.html?spm=a2h3j.8428770.3416059.1</a></p>
 <p>文章所有的素材，在公众号后台回复<strong>大学排名</strong>就可以得到，或者到我的github下载：<br><a href="https://github.com/makcyun/web_scraping_with_python" target="_blank" rel="noopener">https://github.com/makcyun/web_scraping_with_python</a><br>感兴趣的话就动手试试吧。</p>
