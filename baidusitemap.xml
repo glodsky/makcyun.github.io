@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>https://www.makcyun.top/Python_analysis1.html</loc>
+    <lastmod>2018-09-06T05:16:15.180Z</lastmod>
+    <data>
+        <display>
+        <title>Pyhton可视化(1): 中国大学学术排行榜</title>
+        <pubTime>2018-09-05T05:27:22.000Z</pubTime>
+        
+        <tag>Python可视化</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://www.makcyun.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.makcyun.top/web_scraping_withpython4.html</loc>
-    <lastmod>2018-09-03T10:09:40.693Z</lastmod>
+    <lastmod>2018-09-05T05:31:50.448Z</lastmod>
     <data>
         <display>
         <title>Python爬虫(4)：图片批量下载-以澎湃网信息图为例</title>
