@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Python的实用包(1): Tushare金融股票大数据接口]]></title>
+    <url>%2Fpython_data_cleaning1.html</url>
+    <content type="text"><![CDATA[之前用爬虫实现了上市公司信息的抓取。但还有更简单的方法，通过调用Tushare包，可以很便捷地拿到干净的各种股市数据。 摘要： Tushare是一个开源免费、强大的python财经数据接口包。调用该包返回的数据格式基本是Pandas DataFrame类型，非常便于后续处理分析。本文调用该包获得股票的各种信息数据，然后结合D3.js展示股市多项指标的的动态变化。 Github上目前Star数 6000+。包的数据来源于新浪财经、腾讯财经、上交所和深交所，比较齐全，质量也很可靠。 参考：https://tushare.pro/document/2https://github.com/waditu/Tushare 数据接口接口使用前提：首先在官网注册成功后获得token，然后通过下面命令下载Tushare包，然后在程序中调用就可以使用了。1pip instasll tushare 可以获得的信息接口非常多，包括：行情数据、基础数据、财务数据板块等。 下面就简单使用下部分接口，看能获得什么数据。 基础数据国内股票列表exchange_id表示股票代码，可以获取特定股票的基础信息，为空则获取全部;is_hs表示是否沪深港通,为空表示提取所有股市；fields表示想要提取的信息列表。12345import tushare as tsts.set_token('你的token')pro = ts.pro_api()data = pro.stock_basic(exchange_id='', is_hs='', fields='symbol,name,is_hs,list_date,list_status')# ''表示获取全部 结果如下：1234567891011121314151617181920212223 ts_code symbol name list_status list_date is_hs0 000001.SZ 000001 平安银行 L 19910403 S1 000002.SZ 000002 万科A L 19910129 S2 000004.SZ 000004 国农科技 L 19910114 N3 000005.SZ 000005 世纪星源 L 19901210 N4 000006.SZ 000006 深振业A L 19920427 S5 000007.SZ 000007 全新好 L 19920413 N6 000008.SZ 000008 神州高铁 L 19920507 S7 000009.SZ 000009 中国宝安 L 19910625 S8 000010.SZ 000010 美丽生态 L 19951027 N9 000011.SZ 000011 深物业A L 19920330 S10 000012.SZ 000012 南玻A L 19920228 S···3532 603987.SH 603987 康德莱 L 20161121 N3533 603988.SH 603988 中电电机 L 20141104 N3534 603989.SH 603989 艾华集团 L 20150515 H3535 603990.SH 603990 麦迪科技 L 20161208 N3536 603991.SH 603991 至正股份 L 20170308 N3537 603993.SH 603993 洛阳钼业 L 20121009 H3538 603996.SH 603996 中新科技 L 20151222 N3539 603997.SH 603997 继峰股份 L 20150302 H3540 603998.SH 603998 方盛制药 L 20141205 N3541 603999.SH 603999 读者传媒 L 20151210 N 很轻松地，就能获得至今内地3542家上市公司的基本情况。查看一下数据结构：123456789RangeIndex: 3542 entries, 0 to 3541Data columns (total 6 columns):ts_code 3542 non-null objectsymbol 3542 non-null objectname 3542 non-null objectlist_status 3542 non-null objectlist_date 3542 non-null objectis_hs 3542 non-null objectdtypes: object(6) 所有列都是object字符型，将日期列更改为日期型，就可以做一点分析。比如可以统计一下历年上市公司数量。123# 日期格式由数值型改为日期型data['list_date'] = data['list_date'].apply(str)data['list_date'] = pd.to_datetime(data['list_date']) 利用resample函数，按年汇总各年上市公司数量：1234# 汇总各年上市公司数量data = data.set_index(['list_date'])data = data.resample('AS').count()['ts_code']data = data.to_period('A') 结果如下：12345678910111213list_date1990 71991 41992 371993 1061994 991995 211996 1821997 1941998 981999 922000 133··· 然后制作一个历年上市公司数量折线图：]]></content>
+      <categories>
+        <category>Python数据清洗处理</category>
+      </categories>
+      <tags>
+        <tag>Python数据分析</tag>
+        <tag>好用的包</tag>
+        <tag>Tushare</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[关于PDF阅读处理软件，你需要的都在这里了]]></title>
     <url>%2Ffuli01.html</url>
     <content type="text"><![CDATA[分享几款佳软。 摘要： 我们办公中经常要和pdf打交道，包括同各种软件的转换、提取分割、压缩等处理操作，但你可能常常苦于找不到合适的软件。这里和你分享6款最棒的软件，满足你对pdf所有的需求。 先推荐两款pc和手机上比较好用的pdf阅读软件，这两款都是难得的国产良心之作。 1. Foxit Reader一句话概括：这款国产软件足以媲美大名鼎鼎的Adobe Acrobat。 2. WPS Office一句话概括：手机版的和电脑版的WPS可谓”天壤之别”，功能足够强大。 3. 最好用的OCR文字识别软件一句话概括：知乎上PDF话题中最多赞文章中的推荐。官方售价500+RMB。https://www.zhihu.com/topic/19556393/top-answers它最实用最强大的的功能：当你的pdf是扫描或者图片形式的，那么你无法进行复制但你又想复制，此时，这款软件能帮你搞定一切。不仅是pdf，手机拍的照片文字也可以识别然后转化成word。 4. Small PDF一句话概括：网页版很好用，功能齐全，但是有次数限制，专业版费用是每年300+RMB。 5. Solid PDF Converterhttps://www.soliddocuments.com/zh/features.htm?product=SolidConverterPDF一句话概括：当pdf是可复制的前提下，转换成word，excel和ppt的效果最好。官方售价100美元。 6. PDFdo一句话概括：它最实用最强大的的功能是合并、分割、提取等功能。官方售价99RMB。 以上这几款软件足以解决日常遇到的大部分问题。如需，公众号后台回复pdf即可得到。]]></content>
@@ -8,6 +21,7 @@
         <category>python爬虫</category>
       </categories>
       <tags>
+        <tag>佳软</tag>
         <tag>pdf</tag>
       </tags>
   </entry>
@@ -69,13 +83,13 @@
         <category>Python爬虫</category>
       </categories>
       <tags>
+        <tag>Python爬虫</tag>
         <tag>requests</tag>
         <tag>正则表达式</tag>
         <tag>beautifulsoup</tag>
         <tag>css</tag>
         <tag>xpath</tag>
         <tag>lxml</tag>
-        <tag>Python爬虫</tag>
       </tags>
   </entry>
   <entry>
