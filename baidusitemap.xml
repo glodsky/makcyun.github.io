@@ -4,8 +4,68 @@
 
     
   <url>
+    <loc>https://www.makcyun.top/Python_visualization02.html</loc>
+    <lastmod>2018-09-20T12:02:10.603Z</lastmod>
+    <data>
+        <display>
+        <title>Pyhton可视化(2): 中国66家环保股上市公司市值Top20强</title>
+        <pubTime>2018-09-20T05:27:22.000Z</pubTime>
+        
+        <tag>Python可视化</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://www.makcyun.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.makcyun.top/Python_visualization01.html</loc>
+    <lastmod>2018-09-20T05:49:21.218Z</lastmod>
+    <data>
+        <display>
+        <title>Pyhton可视化(1): 中国大学学术排行榜</title>
+        <pubTime>2018-09-05T05:27:22.000Z</pubTime>
+        
+        <tag>Python可视化</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://www.makcyun.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.makcyun.top/python_data_visualization01.html</loc>
+    <lastmod>2018-09-19T02:10:10.062Z</lastmod>
+    <data>
+        <display>
+        <title>Python可视化(1)：折线图</title>
+        <pubTime>2018-09-11T01:36:41.000Z</pubTime>
+        
+        <tag>Python可视化</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python可视化" url="https://www.makcyun.top/categories/Python%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.makcyun.top/python_data_analysis01.html</loc>
-    <lastmod>2018-09-17T09:39:29.418Z</lastmod>
+    <lastmod>2018-09-18T04:02:30.514Z</lastmod>
     <data>
         <display>
         <title>Python数据处理分析(1)：日期型数据处理</title>
@@ -28,28 +88,8 @@
 
     
   <url>
-    <loc>https://www.makcyun.top/python_data_visualization01.html</loc>
-    <lastmod>2018-09-17T01:31:16.742Z</lastmod>
-    <data>
-        <display>
-        <title>Python可视化(1)：折线图</title>
-        <pubTime>2018-09-11T01:36:41.000Z</pubTime>
-        
-        <tag>Python可视化</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python可视化" url="https://www.makcyun.top/categories/Python%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.makcyun.top/life01.html</loc>
-    <lastmod>2018-09-16T01:35:10.272Z</lastmod>
+    <lastmod>2018-09-18T02:15:08.233Z</lastmod>
     <data>
         <display>
         <title>我的白血病妻子</title>
@@ -85,26 +125,6 @@
            
              
               <breadCrumb title="python爬虫" url="https://www.makcyun.top/categories/python%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.makcyun.top/Python_analysis1.html</loc>
-    <lastmod>2018-09-09T08:26:11.900Z</lastmod>
-    <data>
-        <display>
-        <title>Pyhton可视化(1): 中国大学学术排行榜</title>
-        <pubTime>2018-09-05T05:27:22.000Z</pubTime>
-        
-        <tag>Python可视化</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="https://www.makcyun.top/categories/Python/"/>
           
         </display>
     </data>
