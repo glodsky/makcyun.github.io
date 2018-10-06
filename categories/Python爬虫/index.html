@@ -95,7 +95,7 @@
 <meta name="keywords" content="python,hexo,神器,软件">
 <meta property="og:type" content="website">
 <meta property="og:title" content="高级农民工">
-<meta property="og:url" content="https://www.makcyun.top/categories/Python爬虫/index.html">
+<meta property="og:url" content="https://www.makcyun.top/categories/python爬虫/index.html">
 <meta property="og:site_name" content="高级农民工">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
@@ -129,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="https://www.makcyun.top/categories/Python爬虫/"/>
+  <link rel="canonical" href="https://www.makcyun.top/categories/python爬虫/"/>
 
 
 
 
 
-  <title>分类: Python爬虫 | 高级农民工</title>
+  <title>分类: python爬虫 | 高级农民工</title>
   
 
 
@@ -312,7 +312,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>Python爬虫<small>分类</small>
+        <h1>python爬虫<small>分类</small>
         </h1>
       </div>
 
@@ -324,37 +324,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/web_scraping_withpython4.html" itemprop="url">
+            <a class="post-title-link" href="/fuli01.html" itemprop="url">
               
-                <span itemprop="name">Python爬虫(4)：图片批量下载-以澎湃网信息图为例</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-02T08:00:57+08:00"
-              content="2018-09-02" >
-          09-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/web_scraping_withpython3.html" itemprop="url">
-              
-                <span itemprop="name">python爬虫(3)：单页图片下载-网易"数读"信息图</span>
+                <span itemprop="name">关于PDF阅读处理软件，你需要的都在这里了</span>
               
             </a>
         
@@ -362,65 +334,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-01T14:49:30+08:00"
-              content="2018-09-01" >
-          09-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/web_scraping_withpython2.html" itemprop="url">
-              
-                <span itemprop="name">Python爬虫(2)：表格型数据抓取</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-27T08:26:57+08:00"
-              content="2018-08-27" >
-          08-27
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/web_scraping_withpython1.html" itemprop="url">
-              
-                <span itemprop="name">Python爬虫(1):多种方法爬取猫眼top100电影</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-08-20T19:18:14+08:00"
-              content="2018-08-20" >
-          08-20
+              datetime="2018-09-08T20:16:37+08:00"
+              content="2018-09-08" >
+          09-08
         </time>
       </div>
 
@@ -485,7 +401,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -507,7 +423,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-count">23</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -611,7 +527,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共41.9k字</span>
+  <span class="post-count">博客全站共47.9k字</span>
 </div>
 
 
@@ -1112,6 +1028,104 @@
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
+      var url = item.get('url');
             var time = item.get('time');
             var element = document.getElementById(url);
 
