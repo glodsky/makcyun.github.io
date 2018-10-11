@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.makcyun.top/about/index.html</loc>
+    
+    <lastmod>2018-10-11T08:17:38.483Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.makcyun.top/web_scraping_withpython5.html</loc>
     
     <lastmod>2018-10-06T06:17:35.131Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>https://www.makcyun.top/top/index.html</loc>
     
     <lastmod>2018-08-03T04:45:17.617Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.makcyun.top/about/index.html</loc>
-    
-    <lastmod>2018-07-17T10:13:33.131Z</lastmod>
     
   </url>
   
