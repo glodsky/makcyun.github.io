@@ -3,13 +3,36 @@
 
 
     
+  <url>
+    <loc>https://www.makcyun.top/web_scraping_withpython6.html</loc>
+    <lastmod>2018-10-13T06:12:34.770Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表</title>
+        <pubTime>2018-10-12T08:16:24.000Z</pubTime>
+        
+        <tag>Python爬虫</tag>
+         
+        <tag>Ajax</tag>
+         
+        <tag>图片下载</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>https://www.makcyun.top/web_scraping_withpython5.html</loc>
-    <lastmod>2018-10-06T06:17:35.131Z</lastmod>
+    <lastmod>2018-10-12T08:24:52.085Z</lastmod>
     <data>
         <display>
-        <title>Python爬虫(6)：Selenium 爬取东方财富网股票财务报表</title>
+        <title>Python爬虫(5)：Selenium 爬取东方财富网股票财务报表</title>
         <pubTime>2018-10-02T09:18:57.000Z</pubTime>
         
         <tag>Python爬虫</tag>
@@ -29,11 +52,31 @@
 
     
   <url>
-    <loc>https://www.makcyun.top/python_data_visualization01.html</loc>
-    <lastmod>2018-09-28T09:33:25.890Z</lastmod>
+    <loc>https://www.makcyun.top/Python_visualization02.html</loc>
+    <lastmod>2018-10-12T00:07:41.759Z</lastmod>
     <data>
         <display>
-        <title>Python可视化(1)：折线图</title>
+        <title>Pyhton可视化(3): 中国66家环保股上市公司市值Top20强</title>
+        <pubTime>2018-09-20T05:27:22.000Z</pubTime>
+        
+        <tag>Python可视化</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="https://www.makcyun.top/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.makcyun.top/python_data_visualization01.html</loc>
+    <lastmod>2018-10-12T00:07:27.130Z</lastmod>
+    <data>
+        <display>
+        <title>Python可视化(2)：折线图</title>
         <pubTime>2018-09-11T01:36:41.000Z</pubTime>
         
         <tag>Python可视化</tag>
@@ -47,6 +90,7 @@
     </data>
     </url>
 
+    
     
   <url>
     <loc>https://www.makcyun.top/python_data_analysis01.html</loc>
@@ -88,26 +132,6 @@
            
              
               <breadCrumb title="生活随笔" url="https://www.makcyun.top/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.makcyun.top/Python_visualization02.html</loc>
-    <lastmod>2018-09-20T12:22:52.747Z</lastmod>
-    <data>
-        <display>
-        <title>Pyhton可视化(2): 中国66家环保股上市公司市值Top20强</title>
-        <pubTime>2018-09-20T05:27:22.000Z</pubTime>
-        
-        <tag>Python可视化</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="https://www.makcyun.top/categories/Python/"/>
           
         </display>
     </data>
@@ -236,6 +260,8 @@
         <title>Python爬虫(1):多种方法爬取猫眼top100电影</title>
         <pubTime>2018-08-20T11:18:14.973Z</pubTime>
         
+        <tag>Python爬虫</tag>
+         
         <tag>requests</tag>
          
         <tag>正则表达式</tag>
@@ -247,8 +273,6 @@
         <tag>xpath</tag>
          
         <tag>lxml</tag>
-         
-        <tag>Python爬虫</tag>
          
          
            
