@@ -92,13 +92,13 @@
 
 
 
-<meta name="description" content="对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。">
+<meta name="description" content="对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。本文介绍 Post 请求登录、Cookies 登录、Seleium模拟登录三种方法。">
 <meta name="keywords" content="python模拟登录,python爬虫">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python爬虫(8)：模拟登录方法汇总">
 <meta property="og:url" content="https://www.makcyun.top/web_scraping_withpython8.html">
 <meta property="og:site_name" content="高级农民工">
-<meta property="og:description" content="对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。">
+<meta property="og:description" content="对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。本文介绍 Post 请求登录、Cookies 登录、Seleium模拟登录三种方法。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-10-19/68214534.jpg">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-10-17/98135777.jpg">
@@ -106,10 +106,10 @@
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-10-19/5798761.jpg">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-10-19/8322177.jpg">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%85%B3%E6%B3%A8.jpg">
-<meta property="og:updated_time" content="2018-10-24T02:32:50.264Z">
+<meta property="og:updated_time" content="2018-10-24T02:41:26.270Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python爬虫(8)：模拟登录方法汇总">
-<meta name="twitter:description" content="对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。">
+<meta name="twitter:description" content="对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。本文介绍 Post 请求登录、Cookies 登录、Seleium模拟登录三种方法。">
 <meta name="twitter:image" content="http://pbscl931v.bkt.clouddn.com/18-10-19/68214534.jpg">
 
 
@@ -427,7 +427,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  904 字
+                  922 字
                 </span>
               
 
@@ -464,10 +464,10 @@
       
 
       
-        <p>对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。</p>
+        <p>对于很多要先登录的网站来说，模拟登录往往是爬虫的第一道坎。本文介绍 Post 请求登录、Cookies 登录、Seleium模拟登录三种方法。</p>
 <a id="more"></a>  
 <p><strong>摘要：</strong> 在进行爬虫时，除了常见的不用登录就能爬取的网站，还有一类需要先登录的网站。比如豆瓣、知乎，以及上一篇文章中的 IT 桔子网。这一类网站又可以分为只需输入帐号密码、除了帐号密码还需输入或点击验证码的两种类型。本文以只需输入账号密码就能登录的 IT 桔子网为例，介绍模拟登录的几种方法。</p>
-<p>模拟登录的方法有好几种，比如 Post 直接提交账号、先登录获取 Cookies、Seleium模拟登录等，其中：</p>
+<p>模拟登录的方法有好几种，比如 Post 直接请求登录、 Cookies 登录、Seleium模拟登录等，其中：</p>
 <ul>
 <li>Post 方法相对麻烦，需要在后台获取登录的 URL，并填写表单参数；</li>
 <li>先登录将获取到的 Cookies 加入 Headers 中，最后用 <strong>requests.get</strong> 方法提交，这种最为方便；</li>
@@ -580,8 +580,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/weekly_sharing2.html" rel="prev" title="一掏出手机，就暴露了程序猿的身份...">
-                <i class="fa fa-chevron-left"></i> 一掏出手机，就暴露了程序猿的身份...
+              <a href="/weekly_sharing2.html" rel="prev" title="每周分享第 2 期：一掏出手机，就暴露了程序猿身份">
+                <i class="fa fa-chevron-left"></i> 每周分享第 2 期：一掏出手机，就暴露了程序猿身份
               </a>
             
           </div>
