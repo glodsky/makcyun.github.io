@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.makcyun.top/fuli01.html</loc>
-    <lastmod>2018-10-20T13:22:02.345Z</lastmod>
+    <lastmod>2018-10-24T02:29:16.873Z</lastmod>
     <data>
         <display>
         <title>关于 PDF 阅读处理软件，你需要的都在这里了</title>
@@ -26,8 +26,30 @@
 
     
   <url>
+    <loc>https://www.makcyun.top/web_scraping_withpython8.html</loc>
+    <lastmod>2018-10-24T02:26:23.069Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫(8)：想爬虫？先登录</title>
+        <pubTime>2018-10-20T08:16:24.000Z</pubTime>
+        
+        <tag>Python爬虫</tag>
+         
+        <tag>模拟登录</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.makcyun.top/web_scraping_withpython7.html</loc>
-    <lastmod>2018-10-20T13:13:09.010Z</lastmod>
+    <lastmod>2018-10-23T12:58:52.421Z</lastmod>
     <data>
         <display>
         <title>Python爬虫(7)：IT桔子网，国内创业公司的信息都在这里了</title>
@@ -35,9 +57,57 @@
         
         <tag>Python爬虫</tag>
          
+        <tag>模拟登录</tag>
+         
         <tag>MongoDB</tag>
          
-        <tag>模拟登录</tag>
+         
+           
+             
+              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.makcyun.top/web_scraping_withpython2.html</loc>
+    <lastmod>2018-10-22T05:18:45.390Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫(2)：10行代码爬取全国所有A股/港股/新三板上市公司信息</title>
+        <pubTime>2018-08-27T00:26:57.000Z</pubTime>
+        
+        <tag>Python爬虫</tag>
+         
+        <tag>pandas</tag>
+         
+        <tag>数据抓取</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.makcyun.top/web_scraping_withpython6.html</loc>
+    <lastmod>2018-10-21T06:29:59.805Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫(6)：50 行代码爬取东方财富网上市公司 10 年近百万行财务报表数据</title>
+        <pubTime>2018-10-12T08:16:24.000Z</pubTime>
+        
+        <tag>Python爬虫</tag>
+         
+        <tag>Ajax</tag>
+         
+        <tag>图片下载</tag>
          
          
            
@@ -94,28 +164,6 @@
 
     
   <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython8.html</loc>
-    <lastmod>2018-10-18T22:48:14.607Z</lastmod>
-    <data>
-        <display>
-        <title>Python爬虫(8)：模拟登录方法汇总</title>
-        <pubTime>2018-10-20T08:16:24.000Z</pubTime>
-        
-        <tag>Python爬虫</tag>
-         
-        <tag>模拟登录</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.makcyun.top/web_scraping_withpython4.html</loc>
     <lastmod>2018-10-18T08:39:22.647Z</lastmod>
     <data>
@@ -163,30 +211,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython6.html</loc>
-    <lastmod>2018-10-13T09:38:41.889Z</lastmod>
-    <data>
-        <display>
-        <title>Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表</title>
-        <pubTime>2018-10-12T08:16:24.000Z</pubTime>
-        
-        <tag>Python爬虫</tag>
-         
-        <tag>Ajax</tag>
-         
-        <tag>图片下载</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://www.makcyun.top/Python_visualization02.html</loc>
@@ -268,30 +292,6 @@
            
              
               <breadCrumb title="生活随笔" url="https://www.makcyun.top/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.makcyun.top/web_scraping_withpython2.html</loc>
-    <lastmod>2018-09-02T00:14:20.328Z</lastmod>
-    <data>
-        <display>
-        <title>Python爬虫(2)：表格型数据抓取</title>
-        <pubTime>2018-08-27T00:26:57.000Z</pubTime>
-        
-        <tag>Python爬虫</tag>
-         
-        <tag>pandas</tag>
-         
-        <tag>数据抓取</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python爬虫" url="https://www.makcyun.top/categories/Python%E7%88%AC%E8%99%AB/"/>
           
         </display>
     </data>

@@ -92,13 +92,13 @@
 
 
 
-<meta name="description" content="通过分析网址JavaScript请求，快速爬取东方财富网各上市公司历年的财务报表数据。">
+<meta name="description" content="通过分析网址 JavaScript 请求，以比 Selenium 快 100 倍的方法，快速爬取东方财富网各上市公司历年的财务报表数据。">
 <meta name="keywords" content="东方财富网爬虫,python爬虫,财务报表">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表">
+<meta property="og:title" content="Python爬虫(6)：50 行代码爬取东方财富网上市公司 10 年近百万行财务报表数据">
 <meta property="og:url" content="https://www.makcyun.top/web_scraping_withpython6.html">
 <meta property="og:site_name" content="高级农民工">
-<meta property="og:description" content="通过分析网址JavaScript请求，快速爬取东方财富网各上市公司历年的财务报表数据。">
+<meta property="og:description" content="通过分析网址 JavaScript 请求，以比 Selenium 快 100 倍的方法，快速爬取东方财富网各上市公司历年的财务报表数据。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-10-4/90719379.jpg">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/18-10-5/136165.jpg">
@@ -110,10 +110,10 @@
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/Fs-EixHunxcirWSlKPZhF_A1Ariu">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/FuP6aIzr6A7c52EgxAvGiptpoeCX">
 <meta property="og:image" content="http://pbscl931v.bkt.clouddn.com/Fj4q0NIPPMC5dMshIU9H650qD_Tf">
-<meta property="og:updated_time" content="2018-10-13T09:38:41.889Z">
+<meta property="og:updated_time" content="2018-10-21T06:29:59.805Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表">
-<meta name="twitter:description" content="通过分析网址JavaScript请求，快速爬取东方财富网各上市公司历年的财务报表数据。">
+<meta name="twitter:title" content="Python爬虫(6)：50 行代码爬取东方财富网上市公司 10 年近百万行财务报表数据">
+<meta name="twitter:description" content="通过分析网址 JavaScript 请求，以比 Selenium 快 100 倍的方法，快速爬取东方财富网各上市公司历年的财务报表数据。">
 <meta name="twitter:image" content="http://pbscl931v.bkt.clouddn.com/18-10-4/90719379.jpg">
 
 
@@ -150,7 +150,7 @@
 
 
 
-  <title>Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表 | 高级农民工</title>
+  <title>Python爬虫(6)：50 行代码爬取东方财富网上市公司 10 年近百万行财务报表数据 | 高级农民工</title>
   
 
 
@@ -351,7 +351,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表</h1>
+          <h1 class="post-title" itemprop="name headline">Python爬虫(6)：50 行代码爬取东方财富网上市公司 10 年近百万行财务报表数据</h1>
         
 
         <div class="post-meta">
@@ -403,7 +403,7 @@
 
           
           
-             <span id="/web_scraping_withpython6.html" class="leancloud_visitors" data-flag-title="Python爬虫(6)：比Selenium快100倍的方法爬东方财富网财务报表">
+             <span id="/web_scraping_withpython6.html" class="leancloud_visitors" data-flag-title="Python爬虫(6)：50 行代码爬取东方财富网上市公司 10 年近百万行财务报表数据">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -431,7 +431,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  4,113 字
+                  4,122 字
                 </span>
               
 
@@ -468,9 +468,9 @@
       
 
       
-        <p>通过分析网址JavaScript请求，快速爬取东方财富网各上市公司历年的财务报表数据。</p>
+        <p>通过分析网址 JavaScript 请求，以比 Selenium 快 100 倍的方法，快速爬取东方财富网各上市公司历年的财务报表数据。</p>
 <a id="more"></a>  
-<p><strong>摘要：</strong> 上一篇文章，我们用Selenium成功爬取了东方财富网的财务报表数据，但是速度非常慢，爬取70页需要好几十分钟。为了加快速度，本文分析网页JavaScript请求，找到数据接口然后快速爬取财务报表数据。</p>
+<p><strong>摘要：</strong> 上一篇文章，我们用Selenium成功爬取了东方财富网的财务报表数据，但是速度非常慢，爬取 70 页需要好几十分钟。为了加快速度，本文分析网页JavaScript请求，找到数据接口然后快速爬取财务报表数据。</p>
 <h2 id="1-JavaScript请求分析"><a href="#1-JavaScript请求分析" class="headerlink" title="1. JavaScript请求分析"></a>1. JavaScript请求分析</h2><p><img src="http://pbscl931v.bkt.clouddn.com/18-10-4/90719379.jpg" alt=""></p>
 <p>上一篇文章，我们简单分了东方财富网财务报表网页后台的js请求，文章回顾：（<a href="https://www.makcyun.top/web_scraping_withpython5.html">https://www.makcyun.top/web_scraping_withpython5.html</a>）</p>
 <p>接下来，我们深入分析。首先，点击报表底部的下一页，然后观察左侧<strong>Name</strong>列，看会弹出什么新的请求来：</p>
@@ -701,7 +701,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -712,7 +712,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">27</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -810,7 +810,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">全站共62.4k字</span>
+  <span class="post-count">全站共58.5k字</span>
 </div>
 
 
